@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  socialcrab-orchestrator:
+    container_name: socialcrab-orchestrator-dev
+    restart: always
+    image: socialcrab/orchestrator:dev
+    ports:
+      - 3003:3000
